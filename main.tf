@@ -1,12 +1,12 @@
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 terraform {
+  required_version = "1.6.0"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~>5.0"
+      version = "5.20"
     }
   }
-  required_version = ">=0.14.9"
 }
 
 # Configure the AWS Provider
